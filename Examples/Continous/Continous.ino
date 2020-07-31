@@ -7,6 +7,7 @@ uStepper stepper(MAXACCELERATION, MAXVELOCITY);
 
 void setup() {
   // put your setup code here, to run once:
+
   stepper.setup();
   Serial.begin(115200);
   stepper.runContinous(CCW);
